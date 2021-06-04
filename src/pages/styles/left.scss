@@ -1,0 +1,38 @@
+.left {
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+
+    @media screen and(max-width: 900px) {
+        width: 400px;
+        padding-right: 0;
+    }
+
+    &__img {
+        padding: 112px 0 16px;
+
+        img {
+            height: 106px;
+            margin: -28px;
+        }
+    }
+
+    &__text {
+        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        font-size: 28px;
+        font-weight: normal;
+        line-height: 32px;
+        width: 500px;
+        padding: 0 0 20px;
+
+        @media screen and(max-width: 900px) {
+            width: 400px;
+            padding: 0;
+            margin: 0;
+        }
+
+        @media screen and (max-width: 1075px) {
+            font-size: 24px;
+        }
+    }
+}
